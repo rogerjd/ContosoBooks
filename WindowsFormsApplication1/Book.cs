@@ -75,8 +75,15 @@ namespace WindowsFormsApplication1
 
         private void Book_Load(object sender, EventArgs e)
         {
+            int n = _aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet.Book.Count();
+            MessageBox.Show(n.ToString());
+
             // TODO: This line of code loads data into the '_aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet.Book' table. You can move, or remove it, as needed.
             this.bookTableAdapter.FillBy(this._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet.Book, bookPK);
+
+            n = _aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet.Book.Count();
+            MessageBox.Show(n.ToString());
+
         }
     }
 }

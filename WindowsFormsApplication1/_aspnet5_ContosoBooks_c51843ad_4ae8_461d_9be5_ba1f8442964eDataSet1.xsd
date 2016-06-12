@@ -29,7 +29,7 @@ SELECT AuthorID, FirstName, LastName FROM Author WHERE (AuthorID = SCOPE_IDENTIT
                   </DbCommand>
                 </InsertCommand>
                 <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
                     <CommandText>SELECT AuthorID, FirstName, LastName FROM dbo.Author</CommandText>
                     <Parameters />
                   </DbCommand>
@@ -63,7 +63,7 @@ SELECT AuthorID, FirstName, LastName FROM Author WHERE (AuthorID = @AuthorID)</C
   <xs:element name="_aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="_aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet1" msprop:Generator_UserDSName="_aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet1">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="Author" msprop:Generator_TableClassName="AuthorDataTable" msprop:Generator_TableVarName="tableAuthor" msprop:Generator_TablePropName="Author" msprop:Generator_RowDeletingName="AuthorRowDeleting" msprop:Generator_RowChangingName="AuthorRowChanging" msprop:Generator_RowEvHandlerName="AuthorRowChangeEventHandler" msprop:Generator_RowDeletedName="AuthorRowDeleted" msprop:Generator_UserTableName="Author" msprop:Generator_RowChangedName="AuthorRowChanged" msprop:Generator_RowEvArgName="AuthorRowChangeEvent" msprop:Generator_RowClassName="AuthorRow">
+        <xs:element name="Author" msprop:Generator_TableClassName="AuthorDataTable" msprop:Generator_TableVarName="tableAuthor" msprop:Generator_RowChangedName="AuthorRowChanged" msprop:Generator_TablePropName="Author" msprop:Generator_RowDeletingName="AuthorRowDeleting" msprop:Generator_RowChangingName="AuthorRowChanging" msprop:Generator_RowEvHandlerName="AuthorRowChangeEventHandler" msprop:Generator_RowDeletedName="AuthorRowDeleted" msprop:Generator_RowClassName="AuthorRow" msprop:Generator_UserTableName="Author" msprop:Generator_RowEvArgName="AuthorRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="AuthorID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnAuthorID" msprop:Generator_ColumnPropNameInRow="AuthorID" msprop:Generator_ColumnPropNameInTable="AuthorIDColumn" msprop:Generator_UserColumnName="AuthorID" type="xs:int" />
