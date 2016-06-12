@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace ContosoBooks
 {
     partial class MainForm
     {
@@ -37,8 +37,8 @@
             this.yearDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.publisherDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bookBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet = new WindowsFormsApplication1._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet();
-            this.bookTableAdapter = new WindowsFormsApplication1._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSetTableAdapters.BookTableAdapter();
+            this._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet = new ContosoBooks._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet();
+            this.bookTableAdapter = new ContosoBooks._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSetTableAdapters.BookTableAdapter();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,10 +49,10 @@
             this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.authorBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet1 = new WindowsFormsApplication1._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet1();
-            this.authorTableAdapter = new WindowsFormsApplication1._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet1TableAdapters.AuthorTableAdapter();
-            this.authorTableAdapter1 = new WindowsFormsApplication1._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSetTableAdapters.AuthorTableAdapter();
-            this.tableAdapterManager = new WindowsFormsApplication1._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSetTableAdapters.TableAdapterManager();
+            this._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet1 = new ContosoBooks._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet1();
+            this.authorTableAdapter = new ContosoBooks._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet1TableAdapters.AuthorTableAdapter();
+            this.authorTableAdapter1 = new ContosoBooks._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSetTableAdapters.AuthorTableAdapter();
+            this.tableAdapterManager = new ContosoBooks._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSetTableAdapters.TableAdapterManager();
             this.fillByToolStrip = new System.Windows.Forms.ToolStrip();
             this.fillByToolStripButton = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -239,7 +239,7 @@
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
             this.tableAdapterManager.BookTableAdapter = null;
             this.tableAdapterManager.Connection = null;
-            this.tableAdapterManager.UpdateOrder = WindowsFormsApplication1._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.UpdateOrder = ContosoBooks._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
             // fillByToolStrip
             // 

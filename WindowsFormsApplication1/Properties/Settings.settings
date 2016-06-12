@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WindowsFormsApplication1.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ContosoBooks.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
     <Setting Name="aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eConnectionString" Type="(Connection string)" Scope="Application">

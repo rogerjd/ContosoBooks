@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsApplication1.Properties.Settings.GlobalReference.Default.aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ContosoBooks.Properties.Settings.GlobalReference.Default.aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eConnectionString" Provider="System.Data.SqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AuthorTableAdapter" GeneratorDataComponentClassName="AuthorTableAdapter" Name="Author" UserDataComponentName="AuthorTableAdapter">

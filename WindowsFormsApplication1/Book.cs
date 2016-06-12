@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace ContosoBooks
 {
     public partial class Book : Form
     {
@@ -49,7 +49,7 @@ namespace WindowsFormsApplication1
             {
                 using (DbConnection connection = new SqlConnection())
                 {
-                    connection.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["WindowsFormsApplication1.Properties.Settings.aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eConnectionString"].ConnectionString;
+                    connection.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["ContosoBooks.Properties.Settings.aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eConnectionString"].ConnectionString;
                     using (DbCommand command = new SqlCommand())
                     {
                         command.Connection = connection;

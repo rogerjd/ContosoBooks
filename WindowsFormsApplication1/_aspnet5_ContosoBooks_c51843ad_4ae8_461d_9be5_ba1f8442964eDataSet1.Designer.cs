@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace WindowsFormsApplication1 {
+namespace ContosoBooks {
     
     
     /// <summary>
@@ -650,7 +650,7 @@ namespace WindowsFormsApplication1 {
         }
     }
 }
-namespace WindowsFormsApplication1._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet1TableAdapters {
+namespace ContosoBooks._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet1TableAdapters {
     
     
     /// <summary>
@@ -807,7 +807,7 @@ namespace WindowsFormsApplication1._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::WindowsFormsApplication1.Properties.Settings.Default.aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eConnectionString;
+            this._connection.ConnectionString = global::ContosoBooks.Properties.Settings.Default.aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

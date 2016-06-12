@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace ContosoBooks
 {
     partial class Book
     {
@@ -32,8 +32,8 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.bookBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet = new WindowsFormsApplication1._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet();
-            this.bookTableAdapter = new WindowsFormsApplication1._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSetTableAdapters.BookTableAdapter();
+            this._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet = new ContosoBooks._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSet();
+            this.bookTableAdapter = new ContosoBooks._aspnet5_ContosoBooks_c51843ad_4ae8_461d_9be5_ba1f8442964eDataSetTableAdapters.BookTableAdapter();
             this.label1 = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.bookBindingSource)).BeginInit();

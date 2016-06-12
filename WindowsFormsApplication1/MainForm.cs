@@ -15,7 +15,7 @@ using System.Windows.Forms;
  * 
  */
 
-namespace WindowsFormsApplication1
+namespace ContosoBooks
 {
     public partial class MainForm : Form
     {
